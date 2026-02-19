@@ -10,6 +10,7 @@ int main(int argc, char* argv[])
   finances.set_utils_monthly(150.f); // £150 monthly utilities
   finances.set_council_tax_band('D'); // council tax band D
   finances.set_groceries_monthly(200.f); // £200 monthly groceries
+  finances.set_student_loan(55000.f); // 
   
   finances.print_summary();
   return 0;
