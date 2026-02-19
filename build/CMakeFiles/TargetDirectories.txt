@@ -1,3 +1,0 @@
-/home/tommyj/finances/build/CMakeFiles/Finances.dir
-/home/tommyj/finances/build/CMakeFiles/edit_cache.dir
-/home/tommyj/finances/build/CMakeFiles/rebuild_cache.dir
