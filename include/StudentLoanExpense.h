@@ -29,7 +29,7 @@ public:
       return 0.f;
     }
 
-    Thresholds student_loan_thresholds({4.f * 2728.f, 100000000.f}, {0.f, 0.09f});
+    Thresholds student_loan_thresholds({12.f * 2728.f, 100000000.f}, {0.f, 0.09f});
     const float monthly_payment = student_loan_thresholds.calculate_tax(yearly_income) / 12.f;
     return std::min(monthly_payment, total_owed);
   }
